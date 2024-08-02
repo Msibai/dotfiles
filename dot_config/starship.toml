@@ -1,0 +1,165 @@
+format = """
+[](color_magenta)\
+$os\
+$username\
+[](bg:color_green fg:color_magenta)\
+$directory\
+[](fg:color_green bg:color_blue)\
+$git_branch\
+$git_status\
+$git_metrics\
+[](fg:color_blue bg:color_sky)\
+$c\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+$kotlin\
+$python\
+[](fg:color_sky bg:color_slate)\
+$docker_context\
+$conda\
+[](fg:color_slate bg:color_mist)\
+$time\
+[ ](fg:color_mist)\
+$character"""
+
+palette = 'astral_nightfall'
+
+[palettes.astral_nightfall]
+color_fg0 = '#FCF7F8'
+color_fg1 = '#010B17'
+color_magenta = '#BB9AF7'
+color_green = '#9EFEA4'
+color_blue = '#3D52A0'
+color_sky = '#7091E6'
+color_slate = '#8697C4'
+color_mist = '#ADBBDA'
+color_red = '#E01A4F'
+color_yellow = '#FFDF64'
+
+[os]
+disabled = false
+style = "bg:color_magenta fg:color_fg0"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "bg:color_magenta fg:color_fg0"
+style_root = "bg:color_magenta fg:color_fg0"
+format = '[ $user ]($style)'
+
+[directory]
+style = "fg:color_fg1 bg:color_green"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[git_branch]
+format = '[ $symbol$branch(:$remote_branch) ]($style)'
+symbol = "  "
+style = "fg:color_fg0 bg:color_blue"
+
+[git_status]
+format = '[$all_status]($style)'
+style = "fg:color_fg0 bg:color_blue"
+
+[git_metrics]
+format = "([+$added]($added_style))[]($added_style)"
+added_style = "fg:color_fg0 bg:color_blue"
+deleted_style = "fg:color_red bg:color_blue"
+disabled = false
+
+[nodejs]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[c]
+symbol = " "
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[php]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[java]
+symbol = " "
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[kotlin]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[haskell]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[python]
+symbol = ""
+style = "bg:color_sky"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sky)]($style)'
+
+[docker_context]
+symbol = ""
+style = "bg:color_slate"
+format = '[[ $symbol( $context) ](fg:color_fg0 bg:color_slate)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:color_mist"
+format = '[[  $time ](fg:color_fg1 bg:color_mist)]($style)'
+
+[cmd_duration]
+format = "[  $duration ]($style)"
+style = "fg:bright-white bg:18"
+
+[character]
+success_symbol = '[](bold fg:color_green)'
+error_symbol = '[✗](bold fg:color_red)'
+vimcmd_symbol = '[](bold fg:color_green)'
+
