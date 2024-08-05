@@ -24,7 +24,7 @@ return {
         severity_sort = false,
       })
 
-      local icons = require('msibai.icons')
+      local icons = require('msibai.globals.icons')
       local signs = {
         Error = icons.diagnostics.Error,
         Warn = icons.diagnostics.Warn,

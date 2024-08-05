@@ -47,7 +47,7 @@ return {
     config = function()
       -- See `:help cmp`
       local cmp = require('cmp')
-      local icons = require('msibai.icons')
+      local icons = require('msibai.globals.icons')
       local luasnip = require('luasnip')
 
       luasnip.config.setup({})

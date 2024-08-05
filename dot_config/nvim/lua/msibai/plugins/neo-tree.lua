@@ -8,7 +8,7 @@ return {
   },
 
   config = function()
-    local icons = require('msibai.icons').git
+    local icons = require('msibai.globals.icons').git
 
     require('neo-tree').setup({
       sources = { 'filesystem', 'buffers', 'git_status', 'document_symbols' },
