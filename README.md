@@ -79,9 +79,9 @@ Follow these steps to set up your development environment:
 
 To check if Homebrew is already installed, run:
 
-    ```bash
-    brew --version
-    ```
+```bash
+brew --version
+```
 
 If Homebrew is installed, you will see its version number. If not, you’ll receive a command not found error.
 
@@ -89,17 +89,17 @@ If Homebrew is installed, you will see its version number. If not, you’ll rece
 
 You can install Homebrew using the following command:
 
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ### 2. Check if Chezmoi is Installed
 
 To check if Chezmoi is already installed, run:
 
-    ```bash
-    chezmoi --version
-    ```
+```bash
+chezmoi --version
+```
 
 If Chezmoi is installed, you will see its version number. If not, you’ll receive a command not found error.
 
@@ -107,14 +107,14 @@ If Chezmoi is installed, you will see its version number. If not, you’ll recei
 
 Once Homebrew is installed, use it to install Chezmoi:
 
-    ```bash
-    brew install chezmoi
-    ```
+```bash
+brew install chezmoi
+```
 
 ### 3. Initialize Chezmoi
 
 After installing Chezmoi, use the following command to initialize Chezmoi and apply the configuration from this repository:
 
-    ```bash
-    chezmoi init --apply msibai
-    ```
+```bash
+chezmoi init --apply msibai
+```
