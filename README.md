@@ -69,7 +69,7 @@ The script installs the following GUI applications:
 - **alt-tab**: A Windows-like Alt-Tab app switcher.
 - **devtoys**: A collection of tools for developers.
 - **hiddenbar**: A macOS menu bar item hider.
-- **maccy**: A clipboard manager.
+- **warp**: A modern, Rust-based terminal with AI built in.
 
 ## Setup
 

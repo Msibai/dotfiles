@@ -1,0 +1,24 @@
+name: Astral Nightfall
+accent: "#9EFEA4"
+background: "#010B17"
+foreground: "#DCDFEA"
+details: darker
+terminal_colors:
+  bright:
+    black: "#20242C"
+    blue: "#94BFF3"
+    cyan: "#7DF2E5"
+    green: "#6BF0CD"
+    magenta: "#C6BDF6"
+    red: "#FF7B8D"
+    white: "#FFFFFF"
+    yellow: "#FFFFB3"
+  normal:
+    black: "#20242C"
+    blue: "#7091E6"
+    cyan: "#41EAD4"
+    green: "#2DE0A7"
+    magenta: "#BB9AF7"
+    red: "#E01A4F"
+    white: "#FCF7F8"
+    yellow: "#FFDF64"
