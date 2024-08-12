@@ -118,3 +118,18 @@ After installing Chezmoi, use the following command to initialize Chezmoi and ap
 ```bash
 chezmoi init --apply msibai
 ```
+
+## Troubleshooting
+
+### Handling zsh Insecure Directory Warning
+
+If you receive the warning:
+
+zsh compinit: insecure directories, run compaudit for list.
+
+You may need to run these commands to fix it:
+
+```sh
+chmod go-w '/opt/homebrew/share'
+chmod -R go-w '/opt/homebrew/share/zsh'
+```
