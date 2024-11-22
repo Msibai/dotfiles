@@ -22,6 +22,7 @@ packages:
       - "node"
       - "java"
       - "maven"
+      - "pnpm"
     casks:
       - "raycast"
       - "font-jetbrains-mono-nerd-font"
