@@ -2,15 +2,6 @@
 # Initializations
 # =========================
 
-# Starship Prompt
-eval "$(starship init zsh)"
-
-# Syntax Highlighting
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Autosuggestions
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # Zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
@@ -19,19 +10,6 @@ eval $(thefuck --alias)
 
 # fzf
 source <(fzf --zsh)
-
-# =========================
-# Homebrew Zsh Completions
-# =========================
-
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-  autoload -Uz compinit
-  compinit
-fi
-
-# Enable case-insensitive matching for Zsh completions
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # =========================
 # fzf Customization

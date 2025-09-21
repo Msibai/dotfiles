@@ -28,10 +28,6 @@ The script installs the following command-line tools:
 
 - **tldr**: Simplified and community-driven man pages.
 - **neovim**: A modernized version of the Vim text editor.
-- **starship**: A cross-shell prompt that displays contextual information.
-- **zsh-syntax-highlighting**: Syntax highlighting for the Zsh shell.
-- **zsh-completions**: Additional completion definitions for Zsh.
-- **zsh-autosuggestions**: Fish-like autosuggestions for Zsh.
 - **zoxide**: A smarter `cd` command.
 - **thefuck**: Corrects errors in previous shell commands.
 - **eza**: A modern replacement for `ls`.

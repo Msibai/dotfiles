@@ -3,10 +3,6 @@ packages:
     brews:
       - "tldr"
       - "neovim"
-      - "starship"
-      - "zsh-syntax-highlighting"
-      - "zsh-completions"
-      - "zsh-autosuggestions"
       - "zoxide"
       - "thefuck"
       - "eza"
