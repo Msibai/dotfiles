@@ -54,7 +54,6 @@ The script installs the following GUI applications:
 
 - **raycast**: A collection of powerful productivity tools within an extendable launcher.
 - **font-jetbrains-mono-nerd-font**: A developer-friendly font.
-- **alacritty**: A GPU-accelerated terminal emulator.
 - **adguard**: An ad blocker for privacy protection.
 - **nordvpn**: A VPN service.
 - **google-chrome**: A web browser.
