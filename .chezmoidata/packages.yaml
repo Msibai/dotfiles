@@ -23,7 +23,6 @@ packages:
       - "raycast"
       - "font-jetbrains-mono-nerd-font"
       - "adguard"
-      - "nordvpn"
       - "google-chrome"
       - "firefox@developer-edition"
       - "brave-browser"

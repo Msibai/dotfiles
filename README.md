@@ -51,7 +51,6 @@ The script installs the following GUI applications:
 - **raycast**: A collection of powerful productivity tools within an extendable launcher.
 - **font-jetbrains-mono-nerd-font**: A developer-friendly font.
 - **adguard**: An ad blocker for privacy protection.
-- **nordvpn**: A VPN service.
 - **google-chrome**: A web browser.
 - **firefox@developer-edition**: A developer-focused version of the Firefox web browser.
 - **brave-browser**: A privacy-focused web browser.
@@ -63,7 +62,6 @@ The script installs the following GUI applications:
 - **keka**: A file archiver.
 - **alt-tab**: A Windows-like Alt-Tab app switcher.
 - **devtoys**: A collection of tools for developers.
-- **hiddenbar**: A macOS menu bar item hider.
 - **warp**: A modern, Rust-based terminal with AI built in.
 
 ## Setup
