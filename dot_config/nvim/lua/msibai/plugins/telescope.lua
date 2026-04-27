@@ -2,7 +2,7 @@ return {
   { -- Telescope: Fuzzy Finder (files, LSP, etc.)
     'nvim-telescope/telescope.nvim',
     event = 'VimEnter',
-    branch = '0.1.x', -- safer: pin to a stable release branch
+    version = '*',
     dependencies = {
       'nvim-lua/plenary.nvim',
       { -- Native FZF sorter (faster searching)
