@@ -1,5 +1,5 @@
 return {
-  'ggandor/leap.nvim',
+  'https://codeberg.org/andyg/leap.nvim',
   config = function(_, opts)
     local leap = require('leap')
     for k, v in pairs(opts) do
